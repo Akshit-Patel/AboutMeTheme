@@ -1,0 +1,61 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!-- Experience widget -->
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-12 col-lg-4">
+    <h4>Electronics and Instrumentation</h4>
+    <ul>
+        <li>Electrical Sciences</li>
+        <li>Electrical Machines</li>
+        <li>Electromagnetic Theory</li>
+        <li>Digital Design</li>
+        <li>Electronic Devices</li>
+        <li>Microprocessing and Interfacing</li>
+        <li>Control Systems</li>
+        <li>Signals and Systems</li>
+        <li>Microelectronics Circuits</li>
+        <li>Control Systems Lab</li>
+        <li>Transduces and Management</li>
+        <li>Analog and Digital VLSI Design</li>
+        <li>Electronics Instrumentation and </li>
+    </ul>
+  </div>
+  <div class="col-12 col-lg-4">
+    <h4>Computer Science and Mathematics</h4>
+    <ul>
+        <li>Pattern Recognition</li>
+        <li>Object Oriented Programming</li>
+        <li>Computer Programming</li>
+        <li>Discrete Mathematics</li>
+        <li>Probability and Statistics</li>
+        <li>Mathematics I</li>
+        <li>Mathematics II</li>
+        <li>Mathematics III</li>
+    </ul>
+  </div>
+    <div class="col-12 col-lg-4">  </div>
+  <div class="col-12 col-lg-4">
+    <h4>Humanities</h4>
+    <ul>
+        <li>Technical Report Writing</li>
+        <li>Professional Ethics</li>
+        <li>Introduction to mass communication</li>
+        <li>Introductory Psycology</li>
+    </ul>
+  </div>
+  <div class="col-12 col-lg-4">
+    <h4>Others</h4>
+    <ul>
+        <li>Mechanical Workshop</li>
+        <li>Thermodynamics</li>
+        <li>Mechanics Oscillation and Waves</li>
+        <li>Mechanical Workshop Practice</li>
+    </ul>
+  </div>
+</div>
+
